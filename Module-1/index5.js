@@ -19,9 +19,9 @@ for(let i=0;i<10;i++){
 
 let students=['xyz','Disha panigrahi','sheela singh','Pema Khandu']
 
-// for(let eachStudent of students){
-//     console.log(eachStudent)
-// }
+for(let eachStudent of students){
+    console.log(eachStudent)
+}
 students.push('chandu')
 
 let lengthOfTheStudentsArray= students.length
@@ -31,9 +31,17 @@ for(let i=0;i<lengthOfTheStudentsArray;i++){
 }
 console.log(students)
 
-
-
-
+// while loop
+let i =10
+while(i<10){
+    console.log(" while",i)
+    i++
+}
+let j=8
+do{
+    console.log("do while",j)
+    j++
+}while(j<10)
 
 
 
