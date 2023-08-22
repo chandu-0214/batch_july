@@ -61,3 +61,22 @@ let randomObjectenteries = Object.entries(randomObject)
 console.log(randomObjectKeys)
 console.log(randomObjectValues)
 console.log(randomObjectenteries)
+
+// object methods(function is in object as a key)
+const randomObjects = {
+  name: "RandomObject",
+  "age": 25,
+  "is_student": true,
+  "favorite_colors": ["blue", "green", "red"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Randomville",
+    "country": "Randomland"
+  },
+  "hobbies": ["reading", "painting", "playing guitar"],
+  getFullAddress: (name)=>{
+      console.log("Object method",name)
+  }
+
+}
+console.log(randomObjects.getFullAddress('chandu'))
