@@ -1,0 +1,9 @@
+1. DOM (document object model) :- The Document Object Model (DOM) defines the logical structure (Tree- structure)of documents and the way a document is accessed and manipulated.
+how to access the html elements(html nodes)
+        document.getElementById(id)
+
+manipulating :- 
+            1. text => textContent
+            2.css properties :- style.cssproperty
+            3. css ruleset :- className
+
