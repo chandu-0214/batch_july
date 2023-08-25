@@ -7,3 +7,11 @@ manipulating :-
             2.css properties :- style.cssproperty
             3. css ruleset :- className
 
+events in the js :- (where the user can intreact with website)
+                1. click 
+                syntax = buttonElement.addEventListener('eventname',function)
+
+create a html elements = 
+                by using => document.createElement('tag')
+                parentElement.appendChild(childElemt)
+
