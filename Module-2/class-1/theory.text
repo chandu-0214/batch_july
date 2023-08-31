@@ -8,8 +8,12 @@ manipulating :-
             3. css ruleset :- className
 
 events in the js :- (where the user can intreact with website)
-                1. click 
+                1. click       vent triggers when element is clicked
                 syntax = buttonElement.addEventListener('eventname',function)
+                2. change   event triggers when element value changes
+                3.keydown     event triggers when key is down only
+                4.keyup       event triggers when key is up only
+                5.blur        event triggers when element lost the focus
 
 create a html elements = 
                 by using => document.createElement('tag')
