@@ -84,6 +84,10 @@ const handleSubmit=(event)=>{
             emailErrorEl.textContent="Incorrect Gmail"
             emailErrorEl.style.color='red'
         }
+        //condiitons
+    }
+    if(runTimeFormDetails.contactNo){
+        //code
     }
 }
 
