@@ -1,0 +1,35 @@
+
+ 'https://restcountries.com/v2/all'
+ url = "https://apis.ccbp.in/wiki-search?search=" + searchInput;
+
+client => your computer
+server => Browser
+
+HTTP => all website should be run on this protocol(HyperText transfer Protocol)
+
+
+
+URL = is string, across the internet it should be unique(Uniform Resource Locator)
+
+ex. https://www.amazon.com/watches/digital?rating=4&price<5000
+
+https => protocol
+www.amazon.com => Domain Name
+watches => path
+digital => path 
+?rating=4 => Query parameters
+
+1. HTTP Request (Client to server)
+            a.start line(url,Http method,http version)
+            b. Headers 
+            c. body
+
+2. HTTP Response (Server to Client)
+            a.status line (http version,status code, status text)
+            b. Headers 
+            c. body
+
+Http method =>(GET,POST,PUT,DELETE) 
+
+
+
